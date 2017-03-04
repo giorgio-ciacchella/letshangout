@@ -1,0 +1,43 @@
+{
+  "name": "bands-network",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "gulp run",
+    "build": "gulp backend-build",
+    "build-frontend": "gulp frontend-build"
+  },
+  "dependencies": {
+    "babel-core": "^6.21.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "deep-merge": "^1.0.0",
+    "ejs": "^2.5.5",
+    "express": "~4.14.0",
+    "express-session": "^1.15.1",
+    "gulp": "^3.9.1",
+    "jade-loader": "^0.8.0",
+    "morgan": "~1.7.0",
+    "nodemon": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "react": "^15.4.2",
+    "react-bootstrap": "^0.30.7",
+    "react-dom": "^15.4.2",
+    "serve-favicon": "~2.3.0",
+    "webpack": "^1.14.0"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.22.0",
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0",
+    "react-hot-loader": "^1.3.1"
+  }
+}
